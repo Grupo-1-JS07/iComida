@@ -7,7 +7,7 @@ Projeto backend desenvolvido com [NestJS](https://nestjs.com/) para gestão de r
 
 ## 🚀 Tecnologias Utilizadas
 
-- **[NestJS](https://nestjs.com/)** – framework Node.js baseado em módulos
+- **NestJS** – framework Node.js baseado em módulos
 - **TypeORM** – ORM para integração com banco de dados relacional
 - **MySQL** – banco de dados relacional
 - **class-validator** – validação de dados com decorators
