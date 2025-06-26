@@ -29,22 +29,22 @@ Projeto backend desenvolvido com [NestJS](https://nestjs.com/) para gestão de r
 ## 🗂️ Estrutura do Projeto
 
 ```
-src/
-│
-├── restaurante/
-│   │   │   ├── create-restaurante.dto.ts
-│   │   └── update-restaurante.dto.ts
-│   ├── entities/
-│   │   └── restaurante.entity.ts
-│   ├── restaurante.controller.ts
-│   ├── restaurante.service.ts
-│   ├── restaurante.module.ts
-│
-├── database/
-│   └── typeorm.config.ts
-│
-├── app.module.ts
-└── main.ts
+📁 src
+├── 📁 restaurante
+│   ├── 📁 controllers
+│   │   ├── 📄 restaurante.controller.ts
+│   ├── 📁 entities
+│   │   ├── 📄 restaurante.entity.ts
+│   ├── 📁 services
+│   │   ├── 📄 restaurante.service.ts     
+│   └── 📄 restaurante.module.ts
+├── 📄 main.ts
+├── 📄 .gitignore
+├── 📄 package-lock.json
+├── 📄 package.json
+└── 📄 README.md
+├── 📄 tsconfig.json
+...
 
 ```
 
@@ -93,7 +93,7 @@ TypeOrmModule.forRoot({
 
 ## 📝 Observações
 
-- A busca por nome utiliza `ILike`, permitindo buscas como `/restaurantes/nome/pizza`
+- A busca por nome utiliza `ILike`, permitindo buscas como `/restaurantes/nome/pizza` (pizzaria)
 - O projeto pode ser expandido com módulos de **clientes**, **pedidos**, e **autenticação**
 - Estrutura pensada para escalar facilmente
 
@@ -101,15 +101,5 @@ TypeOrmModule.forRoot({
 
 ## 📌 Autores
 
-https://www.linkedin.com/in/brenndhacabral/
-
-https://www.linkedin.com/in/daniel-castro-de-souza-602491133/
-
-https://www.linkedin.com/in/nnandak/
-
-https://www.linkedin.com/in/moniqueohana/
-
-https://www.linkedin.com/in/rafael-selles-sant-anna/
-
-www.linkedin.com/in/sara-silva-9739b0183
+[Brenndha Cabral](https://www.linkedin.com/in/brenndhacabral/) | [Daniel Souza](https://www.linkedin.com/in/daniel-castro-de-souza-602491133/) | [Kannanda Andrade](https://www.linkedin.com/in/nnandak/) | [Monique Ohana](https://www.linkedin.com/in/moniqueohana/) | [Rafael Santanna](https://www.linkedin.com/in/rafael-selles-sant-anna/) | [Sara Silva](https://www.linkedin.com/in/sara-silva-9739b0183/)
 
