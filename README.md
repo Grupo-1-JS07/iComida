@@ -94,10 +94,15 @@ TypeOrmModule.forRoot({
 ## 📌 Autores
 
 https://www.linkedin.com/in/brenndhacabral/
+
 https://www.linkedin.com/in/daniel-castro-de-souza-602491133/
+
 https://www.linkedin.com/in/nnandak/
+
 https://www.linkedin.com/in/moniqueohana/
+
 https://www.linkedin.com/in/rafael-selles-sant-anna/
+
 www.linkedin.com/in/sara-silva-9739b0183
 
 
