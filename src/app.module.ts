@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { IcomidaModule } from './icomida/icomida.module';
-import { Restaurante } from './icomida/entities/icomida.entity';
+import { Restaurante } from './icomida/entities/restaurante.entity';
+import { RestauranteModule } from './icomida/restaurante.module';
 
 @Module({
   imports: [
@@ -16,7 +16,7 @@ import { Restaurante } from './icomida/entities/icomida.entity';
       synchronize: true,
       logging: true,
     }),
-    IcomidaModule,
+    RestauranteModule,
   ],
   controllers: [],
   providers: [],

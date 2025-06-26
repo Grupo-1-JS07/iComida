@@ -1,12 +1,12 @@
 import { Repository } from 'typeorm/repository/Repository';
-import { Restaurante } from './../entities/icomida.entity';
+import { Restaurante } from '../entities/restaurante.entity';
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { ILike } from 'typeorm/find-options/operator/ILike';
 import { DeleteResult } from 'typeorm';
 
 @Injectable()
-export class IcomidaService {
+export class RestauranteService {
   constructor(
     @InjectRepository(Restaurante)
     private restauranteRepository: Repository<Restaurante>,
