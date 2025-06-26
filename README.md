@@ -30,14 +30,22 @@ Projeto backend desenvolvido com [NestJS](https://nestjs.com/) para gestão de r
 
 ```
 src/
+│
 ├── restaurante/
-│   ├── dto/
+│   │   │   ├── create-restaurante.dto.ts
+│   │   └── update-restaurante.dto.ts
 │   ├── entities/
+│   │   └── restaurante.entity.ts
 │   ├── restaurante.controller.ts
 │   ├── restaurante.service.ts
-│   └── restaurante.module.ts
+│   ├── restaurante.module.ts
+│
+├── database/
+│   └── typeorm.config.ts
+│
 ├── app.module.ts
 └── main.ts
+
 ```
 
 ---
