@@ -105,8 +105,3 @@ https://www.linkedin.com/in/rafael-selles-sant-anna/
 
 www.linkedin.com/in/sara-silva-9739b0183
 
-
-
-```
-
--
