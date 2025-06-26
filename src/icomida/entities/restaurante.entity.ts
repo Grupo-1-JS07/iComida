@@ -11,14 +11,14 @@ export class Restaurante {
   nome: string;
 
   @IsNotEmpty()
-  @Column({ length: 255, nullable: false })
+  @Column({ length: 500, nullable: false })
   endereco: string;
 
   @IsNotEmpty()
-  @Column({ length: 255, nullable: false })
+  @Column({ length: 14, nullable: false })
   cnpj: string;
 
   @IsNotEmpty()
-  @Column({ length: 255, nullable: false })
+  @Column({ length: 11, nullable: false })
   telefone: string;
 }
